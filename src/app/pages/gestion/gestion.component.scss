@@ -1,0 +1,27 @@
+.global {
+  background-color:rgb(215, 214, 214);
+  height: 80vh;
+  position: relative;
+}
+
+.btn {
+  background-color: orange;
+  color: white;
+  width: 130px;
+}
+
+.container {
+  background-color: white;
+  position: absolute;
+  height: 600px;
+  width: 60%;
+  left: 20%;
+  top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.formulario {
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+}

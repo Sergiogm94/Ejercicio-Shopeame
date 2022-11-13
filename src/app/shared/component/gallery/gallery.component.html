@@ -1,0 +1,9 @@
+ <div class="gallery" >
+  <div class="card" *ngFor="let product of products">
+    <img src="{{product.image}}" alt="">
+    <h3 class="text">{{product.name}}</h3>
+    <h2 class="text">{{product.price}} €</h2>
+    <p class="text text--color">{{product.description}}</p>
+    <button class="btn" (click)="put(products.id)">Editar</button><button class="btn" (click)="delete(products.id)">Eliminar</button>
+  </div>
+</div>
